@@ -1,5 +1,6 @@
-pyrogram
-tgcrypto
-ntgcalls
+pyrogram==2.0.106
+tgcrypto==1.2.6
+pytgcalls==3.0.5
 yt-dlp
 psutil
+
