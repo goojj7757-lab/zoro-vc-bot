@@ -5,9 +5,9 @@ from pytgcalls.types import AudioPiped
 import os
 
 # Environment variables se credentials uthayega
-API_ID = int(os.getenv("API_ID", "0"))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+API_ID = int(os.getenv("16458667", "0"))
+API_HASH = os.getenv("8cb8f07fb9c67307f1cca1349b2b983f", "")
+BOT_TOKEN = os.getenv("9208192376:AAEa5hCpcXMN78oJ60lBWz_DuH0wVWoMYuU", "")
 
 app = Client(
     "zoro_vc_bot",
