@@ -6,10 +6,10 @@ from pytgcalls import PyTgCalls
 from pytgcalls.types import AudioPulls, AudioQuality
 
 # Environment Variables se credentials uthana
-API_ID = int(os.getenv("API_ID", "0"))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-SESSION_STRING = os.getenv("SESSION_STRING", "")  # Assistant/Userbot ka session string
+API_ID = int(os.getenv("31626761", "0"))
+API_HASH = os.getenv("d79d8f6ed0947ac6d09a762e34157f69", "")
+BOT_TOKEN = os.getenv("9208192376:AAEa5hCpcXMN78oJ60lBWz_DuH0wVWoMYuU", "")
+SESSION_STRING = os.getenv("BQHilgkAn_tZNuRh_Ic9EzyOh5tj2fU3-GI-Fwi4bv1xsairwqMamQ7daTE4EZiD4EpsGZB-Xb9AvSntkfb8DCmCzyzUUgEikUbgvEqk3gr7JzclmfsCeG2l2Umye948EiUk_8VLuDEY5UmmnLKrmnkr4CX0Rh_aJRXs8r501oXtE9sL-BUJzR6l0ZT1DLq9FBwvmrBv-FtGv7t5m6-XyYhdj8OIME1ICD7QPnMjm0aiZAk3ghgxIYr1N35zmhQgmQAAStcEuZn6lC-DvzPRzCmf9ECbfM91R0NmRI9_PT4k2y-_NMSjAGYbcYxbR5MT7RXvjZm7k-Gw19QcWj4XEseiFhH_qQAAAAHT3Y48AA", "")  # Assistant/Userbot ka session string
 
 # 1. Bot Client (Commands aur Buttons ke liye)
 app = Client(
